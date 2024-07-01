@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+
+    <!-- ******     adding favicon file   ******** -->
+
+    <!-- ******     adding remixicon library   ******** -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+     <!-- ******     adding css file   ******** -->
+    <link rel="stylesheet" href="calculator.css">
+
+
+</head>
+<body>
+    
+      <main class="main container">
+
+            <div class="output">
+                <input type="text" disabled contenteditable="true" id="expression" class="input_box">
+                <input type="text"  disabled id="results" class="input_box">
+            </div>
+
+            <div class="feature">
+                <div class="unit-operations">
+                    <i class="ri-thermometer-fill" id="unit"></i>
+                    <i class="ri-square-root" id="operations"></i>
+                </div>
+                <i class="ri-close-circle-line" id="erase"></i>
+            </div>
+
+
+            <div class="num_ope">
+                    <div id="num-ope-data" class="clear"> C </div>
+                    <div id="num-ope-data" class="ope"> ( ) </div>
+                    <div id="num-ope-data" class="ope"> % </div>
+                    <div id="num-ope-data" class="ope"> / </div>
+                    <div id="num-ope-data" class="num"> 7 </div>
+                    <div id="num-ope-data" class="num"> 8 </div>
+                    <div id="num-ope-data" class="num"> 9 </div>
+                    <div id="num-ope-data" class="ope"> * </div>
+                    <div id="num-ope-data" class="num"> 4 </div>
+                    <div id="num-ope-data" class="num"> 5 </div>
+                    <div id="num-ope-data" class="num"> 6 </div>
+                    <div id="num-ope-data" class="ope"> - </div>
+                    <div id="num-ope-data" class="num"> 1 </div>
+                    <div id="num-ope-data" class="num"> 2 </div>
+                    <div id="num-ope-data" class="num"> 3 </div>
+                    <div id="num-ope-data" class="ope"> + </div>
+                    <div id="num-ope-data" class="num"> null </div>
+                    <div id="num-ope-data" class="num"> 0 </div>
+                    <div id="num-ope-data" class="num"> . </div>
+                    <div id="num-ope-data" class="num equals-button"> = </div>
+            </div>
+
+      </main>      
+      
+
+      <script src="calculator.js"></script>
+</body>
+</html>
